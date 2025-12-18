@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-/**
- * Preview component for the precision-audit theme
- * This showcases the color palette extracted from Figma
- */
-export const PrecisionAuditThemePreview: React.FC = () => {
+export const ThemePreview: React.FC = () => {
     const [theme, setTheme] = useState<string | null>(
         document.documentElement.getAttribute('data-theme')
     );
@@ -16,7 +12,6 @@ export const PrecisionAuditThemePreview: React.FC = () => {
                 if (mutation.attributeName === 'data-theme') {
                     const newTheme = document.documentElement.getAttribute('data-theme');
                     setTheme(newTheme);
-                    console.log('Theme changed to:', newTheme);
                 }
             });
         });
