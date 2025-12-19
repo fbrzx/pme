@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "npm run dev --workspace=@airepo/web",
+    "dev:web": "npm run dev --workspace=@repo/web",
     "build": "npm run build --workspaces --if-present",
     "typecheck": "tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1"

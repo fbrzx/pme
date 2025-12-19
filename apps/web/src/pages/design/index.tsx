@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { Card, CardBody, CardTitle } from '@airepo/design';
+import { Card, CardBody, CardTitle } from '@repo/design';
 import { Link } from 'react-router-dom';
 
 export default function DesignPage() {

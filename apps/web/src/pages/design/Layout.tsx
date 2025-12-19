@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { LayoutPreview } from '@airepo/design';
+import { LayoutPreview } from '@repo/design';
 
 export default function LayoutPage() {
     return (

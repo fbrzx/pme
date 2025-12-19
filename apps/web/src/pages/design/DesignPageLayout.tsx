@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Navbar, NavbarStart, NavbarEnd, ThemeToggle, Footer, FooterTitle } from '@airepo/design';
+import { Navbar, NavbarStart, NavbarEnd, ThemeToggle, Footer, FooterTitle } from '@repo/design';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function DesignPageLayout({ children }: { children: ReactNode }) {

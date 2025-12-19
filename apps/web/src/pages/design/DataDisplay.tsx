@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { DataDisplayPreview } from '@airepo/design';
+import { DataDisplayPreview } from '@repo/design';
 
 export default function DataDisplayPage() {
     return (

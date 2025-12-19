@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Card, CardBody, CardTitle, CardActions } from '@airepo/design';
+import { Button, Card, CardBody, CardTitle, CardActions } from '@repo/design';
 import { Link } from 'react-router-dom';
 
 export default function Home() {

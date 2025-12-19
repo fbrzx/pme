@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { ActionsPreview } from '@airepo/design';
+import { ActionsPreview } from '@repo/design';
 
 export default function ActionsPage() {
     return (

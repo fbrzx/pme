@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { ThemePreview } from '@airepo/design';
+import { ThemePreview } from '@repo/design';
 
 export default function ThemePage() {
     return (

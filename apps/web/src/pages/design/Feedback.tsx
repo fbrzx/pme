@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { FeedbackPreview } from '@airepo/design';
+import { FeedbackPreview } from '@repo/design';
 
 export default function FeedbackPage() {
     return (

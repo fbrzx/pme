@@ -1,5 +1,5 @@
 import DesignPageLayout from './DesignPageLayout';
-import { NavigationPreview } from '@airepo/design';
+import { NavigationPreview } from '@repo/design';
 
 export default function NavigationPage() {
     return (

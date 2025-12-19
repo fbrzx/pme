@@ -6,7 +6,6 @@ export const ThemePreview: React.FC = () => {
     );
 
     useEffect(() => {
-        // Update theme state when it changes
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {
                 if (mutation.attributeName === 'data-theme') {
@@ -26,9 +25,9 @@ export const ThemePreview: React.FC = () => {
 
     return (
         <div className="space-y-8 p-6">
-            <div>
-                <h2 className="text-2xl font-bold mb-4">{theme}</h2>
-            </div>
+            <h2 className='text-lg font-semibold mb-3'>
+               {theme}
+            </h2>
 
             {/* Color Swatches */}
             <div>
